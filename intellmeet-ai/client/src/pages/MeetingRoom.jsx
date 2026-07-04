@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { io } from 'socket.io-client';
 import api from '../lib/api';
 
-const SERVER_ENDPOINT = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const SERVER_ENDPOINT = import.meta.env.VITE_API_URL || 'https://intellmeet-ai.onrender.com';
 const RTC_CONFIG = { iceServers: [{ urls: 'stun:stun.l.google.com:19302' }] };
 
 export default function MeetingRoom() {

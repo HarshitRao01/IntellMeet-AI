@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { Video, Clock, Calendar, FileText, Search } from 'lucide-react';
 import Sidebar from '../components/Sidebar';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://intellmeet-ai.onrender.com';
 
 function formatDur(s) {
   if (!s) return '0m';
